@@ -3,10 +3,14 @@ body {
   text-align: center;
   margin:0;
   padding: 0;
+  font-family: 'Merriweather', serif;
+font-family: 'Urbanist', sans-serif;
+  font-weight: 400;
 }
 
 nav {
-  background: #FE4365;
+  background: #FC9D9A;
+
 }
 
 ul {
@@ -15,10 +19,23 @@ ul {
     padding: 0px;
   }
 
+li {
+  margin: 2px;
+  padding: 10px;
+}
+
 a {
   text-decoration: none;
   font-style: bold;
   font-weight: italic;
   text-transform: uppercase;
-  color: #3CAEA3;
+  color: #FE4365;
+}
+
+a:hover {
+  color: #83AF9B;
+}
+
+h1, h2 {
+  color: #B1624EFF;
 }
