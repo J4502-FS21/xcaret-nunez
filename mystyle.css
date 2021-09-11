@@ -5,8 +5,20 @@ body {
   padding: 0;
 }
 
+nav {
+  background: #FE4365;
+}
+
 ul {
     list-style-type: none;
     margin: 0px;
     padding: 0px;
   }
+
+a {
+  text-decoration: none;
+  font-style: bold;
+  font-weight: italic;
+  text-transform: uppercase;
+  color: #3CAEA3;
+}
