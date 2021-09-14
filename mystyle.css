@@ -29,12 +29,12 @@ a {
   font-weight: bold;
   font-style: italic;
   text-transform: uppercase;
-  color: #FE4365;
+  color: #E0115F;
   font-weight: 600;
 }
 
 a:hover {
-  color: #83AF9B;
+  color: ##3C1361;
 }
 
 h1, h2 {
