@@ -36,14 +36,18 @@ a:hover {
   color: #3C1361;
 }
 
-h1, h2 {
-  color: #B1624EFF;
+h1 {
+  font-weight: 700;
+}
+
+h2 {
+  font-weight: 400;
 }
 
 h1, h2 {
   font-family: 'Merriweather', serif;
   font-weight: bold;
-  font-weight: 600;
+  color: #B1624EFF;
 }
 
 img {
