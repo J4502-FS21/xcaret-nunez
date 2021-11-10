@@ -79,6 +79,7 @@ p {
   margin-inline-start: 10em;
 }
 
+
 .link a {
   text-decoration: underline;
   font-weight: bold;
@@ -95,6 +96,11 @@ margin-block-end: 2em;
 margin-top: 2em;
 }
 
+.pic-block a {
+  margin-inline-start: 5em;
+  margin-inline-end: 5em;
+}
+
 .text-block{
   list-style-type: none;
   padding-inline-start: 200px;
@@ -102,7 +108,6 @@ margin-top: 2em;
 }
 
 .pro-container {
-  align:left;
   margin: 0 15px 0 0;
   margin-left: 5px;
   margin-right: 5px;
@@ -110,7 +115,6 @@ margin-top: 2em;
 }
 
 .pro-container img {
-  align:left;
   margin: 0 15px 0 0;
   margin-left: 5px;
   margin-right: 5px;
@@ -123,6 +127,47 @@ margin-top: 2em;
 .link {
   margin-block-end: 2.2em;
 }
+
+.tip {
+  font-weight: bolder;
+  color: #000000;
+  font-size: 1.1em;
+  font-family: 'Source Serif Pro', serif;
+}
+
+.space {
+  margin-block-end: .8em;
+}
+
+
+.birdpic {
+  align:left;
+  margin: 0 15px 0 0;
+  width: 98%;
+  margin-left: 5px;
+  margin-right: 5px;
+  line-height: 1.5;
+}
+
+.birdpic img {
+  align:left;
+  margin: 0 15px 0 0;
+  width: 298px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.pic-text {
+display:flex;
+margin-block-end: 2em;
+}
+
+.text-ul{
+  list-style-type: none;
+  padding-inline-start: 3px;
+  text-align: justify;
+}
+
 
 footer {
   font-family: 'Merriweather', serif;
