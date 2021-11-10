@@ -2,39 +2,66 @@
 
 <html lang="en">
 <head>
-  <title>Xcaret's Portfolio Website!</title>
   <meta charset="utf-8">
-  <meta name="description" content="Xcaret's Portfolio Website.">
+
+  <title>Home: Xcaret's Portfolio Website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Xcaret's Portfolio Website">
   <meta name="author" content="Xcaret Nunez">
-  <meta name="keywords" content="Xcaret Nunez, Portfolio"/>
+  <meta name="keywords" content="Xcaret Nunez, Journalist, Broadcast, Portfolio"/>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Rubik:ital@0;1&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="mystyle.css">
 </head>
 
-<body>
-  <nav>
-    <ul>
-      <li><a href="https://twitter.com/Xcaret_News" target="_blank">Follow Xcaret Nunez's Twitter Account</a></li>
-      <li><a href="second-page.html">My Second Page!</a></li>
-      <li><a href="old-index.html">My Old Index Page</a></li>
-    </ul>
-  </nav>
-
-  <h1>Xcaret Nunez's Website</h1>
-  <p>Hello, Welcome To My Portfolio!</p>
-  <p>You can send me an e-mail at <a href="mailto:xcaret200@gmail.com">xcaret200@gmail.com</a></p>
-
-  <a href="mailto:xcaret200@gmail.com">
-    <img src="xcaret-image.png" alt="Xcaret Nunez smiling and standing at a park with trees and a creak in the background" />
-  </a>
+  <body>
+    <h1 id="title">Xcaret Nuñez's Website</h1>
 
   <section>
-    <h2>Joke</h2>
+  <div class="navcontainer">
+    <nav>
+      <ul id="menu_nav">
+        <li><a href="index.html">About Me</a></li>
+        <li><a href="second-page.html">Xcy Clips</a></li>
+        <li><a href="third-page.html">Resume</a></li>
+        <li><a href="fourth-page.html">My Old Index</a></li>
+      </ul>
+      <button id="menu_trigger">☰</button>
+    </nav>
+  </div>
+  </section>
+
+  <section>
+    <h2 class="intro-header">Welcome!</h2>
+<div class="pro-container">
+<div class="pic-block">
+    <a href="mailto:xcaret200@gmail.com">
+      <img id="profile" src="portfolio-pic.jpg" alt="Selfie image of Xcaret Nunez smiling in her room" />
+    </a>
+
+    <div class="text-block">
+    <p>I am a senior-year journalism student at the University of Missouri—Columbia. From Yuma, Arizona, I came to MU and have gained training in all aspects of multimedia journalism with an emphasis in Radio-Television Reporting and Producing. This website showcases the journalistic work I have created and produced during my time at MU so far (2018-2021). The notable projects displayed throughout the site demonstrate my knowledge and technique in reporting and producing audio, video and photo stories. It also demonstrates my skills and familiarity with various broadcast equipment and programs such as Adobe Audition, Premiere Pro and Photoshop. In my spare time, I enjoy producing and broadcasting my own radio show at MU's college radio station, KCOU 88.1 FM, keeping up with my family back at home, and spending too much time scrolling through my Twitter feed while listening to the latest NPR Tiny Desk performance. </p>
+  <p class="link">You can send me an e-mail at <a href ="mailto:xcaret200@gmail.com">xcaret200@gmail.com</a></p>
+</div>
+</div>
+</div>
+
+</section>
+
+  <section>
+    <h2 class="intro-header">Joke</h2>
     <p>How come no one ever invites ravioli to a party?</p>
     <p>Because he's a little square.</p>
   </section>
+
+  <footer>
+    <div class="foot">
+      <a href="#title">Back to the Top</a>
+      </div>
+    </footer>
+
+<script src="main-javascript.js"></script>
 
 </body>
 </html>
