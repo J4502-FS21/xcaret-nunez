@@ -62,14 +62,11 @@ body {
 }
 
 p {
-  font-family: 'Rubik', sans-serif;
   font-size: 1em;
-  display: block;
-  line-height: 1.5;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 10em;
-  margin-inline-end: 10em;
+  margin: 1rem auto;
+  max-width: 700px;
+  font-family: 'Rubik', sans-serif;
+  color: black;
 }
 
 #decorate {
@@ -218,6 +215,48 @@ li.list1 {
 .media a:hover{
   color: #3C1361;
   cursor: pointer;
+}
+
+h3{
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #000000;
+  font-size: 1.5em;
+  margin-block-end: 1em;
+  margin-inline-start: 1em;
+  margin-inline-end: 1em;
+  color:#3C1361
+}
+
+section.clips{
+  max-width: 700px;
+  text-align: left;
+  margin: 0px auto;
+}
+
+section.img_clips{
+  text-align: center;
+}
+
+.style {
+  margin-inline-start: 3em;
+  margin-inline-end: 3em;
+}
+
+.credit a {
+  font-size: 0.8rem;
+  font-style: italic;
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+  text-decoration: underline;
+  color: #000000;
+}
+
+.credit {
+  font-size: 0.8rem;
+  font-style: italic;
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
 }
 
 #menu_trigger {
