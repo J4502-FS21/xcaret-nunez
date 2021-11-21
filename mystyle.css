@@ -67,6 +67,7 @@ p {
   max-width: 700px;
   font-family: 'Rubik', sans-serif;
   color: black;
+  line-height: 1.5;
 }
 
 p a{
@@ -266,6 +267,7 @@ text-align: left;
 list-style-position: inside;
 margin: 1rem auto;
 max-width: 700px;
+line-height: 1.5;
 }
 
 li a{
