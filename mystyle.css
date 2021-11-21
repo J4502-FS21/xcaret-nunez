@@ -69,6 +69,20 @@ p {
   color: black;
 }
 
+p a{
+  text-decoration: underline;
+  font-weight: bold;
+  font-style:normal;
+  text-transform: inherit;
+  color: #000000;
+  font-weight: 600;
+  font-size: 1em;
+}
+
+p a:hover {
+  color: #E0115F;
+}
+
 #decorate {
   font-family: 'Rubik', sans-serif;
   font-size: 1em;
