@@ -228,6 +228,46 @@ h3{
   color:#3C1361
 }
 
+h4{
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 1.1em;
+  margin-block-end: 1em;
+  margin-inline-start: 1em;
+  margin-inline-end: 1em;
+  color:#3C1361
+
+}
+
+ol{
+text-align: center;
+list-style: circle;
+margin-block-end: 1em;
+margin-inline-start: 1em;
+margin-inline-end: 1em;
+}
+
+li{
+text-align: left;
+list-style-position: inside;
+margin: 1rem auto;
+max-width: 700px;
+}
+
+li a{
+  text-decoration: underline;
+  font-weight: bold;
+  font-style:normal;
+  text-transform: inherit;
+  color: #000000;
+  font-weight: 600;
+  font-size: 1em;
+}
+
+li a:hover {
+  color: #E0115F;
+}
+
 section.clips{
   max-width: 700px;
   text-align: left;
