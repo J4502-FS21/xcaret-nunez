@@ -347,6 +347,19 @@ section.img_clips{
   text-align: left;
 }
 
+@media (max-width: 520px){
+
+  #resume{
+    width: 100%;
+  }
+}
+
+@media (max-width: 340px){
+
+  #resume{
+    height: 450px;
+  }
+
   #menu_trigger {
     display: block;
     position: absolute;
