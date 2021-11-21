@@ -346,6 +346,7 @@ section.img_clips{
   width: 100%;
   text-align: left;
 }
+}
 
 @media (max-width: 520px){
 
@@ -361,6 +362,7 @@ section.img_clips{
   }
 }
 
+@media (max-width: 600px) {
   #menu_trigger {
     display: block;
     position: absolute;
